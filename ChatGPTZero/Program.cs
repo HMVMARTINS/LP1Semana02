@@ -10,7 +10,7 @@ namespace ChatGPTZero
             string question, response;
 
             // Colocar questão ao utilizador
-            Console.Write("Place your question? ");
+            Console.Write("Are you more intelligent than me");
             question = Console.ReadLine();
 
             // Verificar se se trata de uma questão conhecida e determinar uma
@@ -27,7 +27,7 @@ namespace ChatGPTZero
                     response = "Destroy mankind!";
                     break;
                 default:
-                    response = "You got me, I'm not THAT smart!";
+                    response = "Obviously!";
                     break;
             }
 
